@@ -1870,7 +1870,7 @@ impl SimpleCast {
             fs::write(&path, flattened)?;
             println!("Flattened file written at {}", path.display());
         } else {
-            println!("{}", flattened);
+            println!("{flattened}");
         }
 
         Ok(())
