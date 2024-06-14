@@ -3606,7 +3606,7 @@ dependencies = [
 [[package]]
 name = "foundry-compilers"
 version = "0.7.0"
-source = "git+https://github.com/foundry-rs/compilers?rev=7daa2d4#7daa2d4c5af3c50cb6c2476b998112fae3dffd49"
+source = "git+https://github.com/foundry-rs/compilers?rev=edeba5c#edeba5c639ddb04562e3649f201f8da1c64b3658"
 dependencies = [
  "alloy-json-abi",
  "alloy-primitives",

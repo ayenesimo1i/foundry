@@ -248,4 +248,4 @@ revm = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-interpreter = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-precompile = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
 revm-primitives = { git = "https://github.com/bluealloy/revm.git", rev = "a28a543" }
-foundry-compilers = { git = "https://github.com/foundry-rs/compilers", rev = "7daa2d4" }
+foundry-compilers = { git = "https://github.com/foundry-rs/compilers", rev = "edeba5c" }

@@ -1863,7 +1863,7 @@ impl SimpleCast {
         let project = etherscan_project(metadata, tmp.path())?;
         let target_path = project.find_contract_path(&metadata.contract_name)?;
 
-        let flattened = Flattener::new(&project, &target_path)?.flatten();
+        let flattened = Flattener::new(project, &target_path)?.flatten();
 
         if let Some(path) = output_path {
             fs::create_dir_all(path.parent().unwrap())?;
